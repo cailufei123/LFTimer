@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
   #tag方式：填tag名称
   #commit方式：填commit的id
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
 
   #库的简介
   s.summary      = "LFTimer是一个GCD定时器封装"
