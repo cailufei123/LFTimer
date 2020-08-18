@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   #库名，和文件名一样
-  s.name         = "CLFAnimated"
+  s.name         = "LFTimer"
 
   #tag方式：填tag名称
   #commit方式：填commit的id
