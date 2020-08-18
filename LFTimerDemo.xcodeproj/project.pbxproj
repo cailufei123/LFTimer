@@ -14,6 +14,7 @@
 		AD316B7C24EC45F0008EBB80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD316B7B24EC45F0008EBB80 /* Assets.xcassets */; };
 		AD316B7F24EC45F0008EBB80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD316B7D24EC45F0008EBB80 /* LaunchScreen.storyboard */; };
 		AD316B8224EC45F0008EBB80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD316B8124EC45F0008EBB80 /* main.m */; };
+		AD316B8B24EC4B01008EBB80 /* LFTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD316B8924EC4B01008EBB80 /* LFTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		AD316B7E24EC45F0008EBB80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD316B8024EC45F0008EBB80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD316B8124EC45F0008EBB80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD316B8924EC4B01008EBB80 /* LFTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFTimer.m; sourceTree = "<group>"; };
+		AD316B8A24EC4B01008EBB80 /* LFTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFTimer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		AD316B6E24EC45ED008EBB80 /* LFTimerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AD316B8824EC4B01008EBB80 /* LFTimer */,
 				AD316B6F24EC45ED008EBB80 /* AppDelegate.h */,
 				AD316B7024EC45ED008EBB80 /* AppDelegate.m */,
 				AD316B7224EC45ED008EBB80 /* SceneDelegate.h */,
@@ -75,6 +79,15 @@
 			);
 			path = LFTimerDemo;
 			sourceTree = "<group>";
+		};
+		AD316B8824EC4B01008EBB80 /* LFTimer */ = {
+			isa = PBXGroup;
+			children = (
+				AD316B8A24EC4B01008EBB80 /* LFTimer.h */,
+				AD316B8924EC4B01008EBB80 /* LFTimer.m */,
+			);
+			path = LFTimer;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -146,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD316B8B24EC4B01008EBB80 /* LFTimer.m in Sources */,
 				AD316B7724EC45ED008EBB80 /* ViewController.m in Sources */,
 				AD316B7124EC45ED008EBB80 /* AppDelegate.m in Sources */,
 				AD316B8224EC45F0008EBB80 /* main.m in Sources */,
