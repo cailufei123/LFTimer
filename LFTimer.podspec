@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
   #tag方式：填tag名称
   #commit方式：填commit的id
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
 
   #库的简介
   s.summary      = "LFTimer是一个GCD定时器封装"
@@ -33,10 +33,18 @@ Pod::Spec.new do |s|
 
  s. source_files = 'LFTimer/*.{h,m}'
 
-
+ s.vendored_frameworks = 'CoinTools.framework'
  
 
-
+ s.dependency 'Charts'
+  s.dependency 'AFNetworking'
+  s.dependency 'Masonry'
+  s.dependency 'YYKit'
+  s.dependency 'UITableView+FDTemplateLayoutCell'
+  s.dependency 'MJRefresh'
+  s.dependency 'JXCategoryView'
+  s.dependency 'SYProgressView'
+  s.dependency 'FMDB'
 end
 
 

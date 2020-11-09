@@ -1,0 +1,577 @@
+
+
+{
+    "message": "success get bcoin_btc_base_info,bcoin_btc_offer_info,bcoin_ms_coin_info,bcoin_big_vip_info,bcoin_fin_market_index_info,bcoin_btc_future_pos_info,bcoin_long_short_rate_info,bcoin_swap_cap_rate_info,bcoin_netinflow_24h_info,bcoin_usdt_index_info,bcoin_btc_big_order_info,bcoin_24h_burst_info,bcoin_finance_rate_info,bcoin_short_term_info,bcoin_rise_list_info,bcoin_coin_volume_info,bcoin_btc_futcont_info info",
+    "status": 200,
+    "success": "true",
+    "data": {
+        "bcoin_btc_base_info": [{
+            "data_type": "爆仓数据",
+            "data_result": "24H $3010万"
+        }, {
+            "data_type": "爆仓数据",
+            "data_result": " 1H $478万"
+        }, {
+            "data_type": "合约持仓",
+            "data_result": "OKEx $6.08亿"
+        }, {
+            "data_type": "合约持仓",
+            "data_result": "火币 $2.89亿"
+        }, {
+            "data_type": "合约持仓",
+            "data_result": "BitMEX $6.2亿"
+        }, {
+            "data_type": "合约持仓",
+            "data_result": "币安 $3.84亿"
+        }, {
+            "data_type": "BTC季度溢价",
+            "data_result": "OKEx 正$239"
+        }, {
+            "data_type": "BTC季度溢价",
+            "data_result": "火币 正$233"
+        }, {
+            "data_type": "OKEx多空人数",
+            "data_result": "0.76"
+        }, {
+            "data_type": "OKEx多空人数",
+            "data_result": "空头居多"
+        }, {
+            "data_type": "BTC资金费率",
+            "data_result": "+0.010%"
+        }, {
+            "data_type": "BTC资金费率",
+            "data_result": "费率正常"
+        }, {
+            "data_type": "USDT净流入",
+            "data_result": "-332.96万"
+        }, {
+            "data_type": "USDT净流入",
+            "data_result": "小额流出交易所"
+        }, {
+            "data_type": "USDT溢价",
+            "data_result": "￥6.74"
+        }, {
+            "data_type": "USDT溢价",
+            "data_result": "负 0.26%"
+        }, {
+            "data_type": "实盘多空人数",
+            "data_result": "多51% : 空49%"
+        }, {
+            "data_type": "实盘多空金额",
+            "data_result": "多46% : 空54%"
+        }, {
+            "data_type": "微博分析师",
+            "data_result": "多3 : 空0"
+        }, {
+            "data_type": "BTC全网多空",
+            "data_result": "多50% : 空50%"
+        }],
+        "bcoin_btc_offer_info": [{
+            "btc_offer": "$10988.27",
+            "rise_fall": "+1.01%",
+            "vix": "恐慌指数：49(恐慌)"
+        }],
+        "bcoin_ms_coin_info": [{
+            "coin_type": "BTC",
+            "offer": "$10988.86;+1.01%",
+            "market_sentiment": "多空人数比低位",
+            "hold_cnt": "OKEx  $6.08亿;BitMEX $6.2亿",
+            "stock_burst_amt": "1H  $445万;24H $2141万",
+            "long_short_rate": "多:空=0.76",
+            "amount_rate": "多:空=0.73",
+            "quarterly_premium": "+$233.71",
+            "all_long_short": "多头 50.41%",
+            "perpetual_contract": "+0.010%",
+            "okex_trend": "多:空=45%  54%",
+            "okex_index": "多:空=20%  17%",
+            "currency_rate": "5.44%"
+        }, {
+            "coin_type": "ETH",
+            "offer": "$386.65;+0.95%",
+            "market_sentiment": "多空人数比正常",
+            "hold_cnt": "OKEx  $1.68亿;BitMEX $2871万",
+            "stock_burst_amt": "1H  $5658;24H $819万",
+            "long_short_rate": "多:空=1.0",
+            "amount_rate": "多:空=0.87",
+            "quarterly_premium": "+$6.40",
+            "all_long_short": "多头 52.87%",
+            "perpetual_contract": "+0.074%",
+            "okex_trend": "多:空=49%  50%",
+            "okex_index": "多:空=19%  15%",
+            "currency_rate": "1.46%"
+        }, {
+            "coin_type": "EOS",
+            "offer": "$2.74;+0.16%",
+            "market_sentiment": "多空人数比极高",
+            "hold_cnt": "OKEx  $4513万",
+            "stock_burst_amt": "1H  $0;24H $10.3万",
+            "long_short_rate": "多:空=2.31",
+            "amount_rate": "多:空=1.43",
+            "quarterly_premium": "+$0.06",
+            "all_long_short": "多头 53.91%",
+            "perpetual_contract": "+0.062%",
+            "okex_trend": "多:空=40%  60%",
+            "okex_index": "多:空=15%  19%",
+            "currency_rate": "0.04%"
+        }, {
+            "coin_type": "BCH",
+            "offer": "$237.19;+1.13%",
+            "market_sentiment": "多空人数比极高",
+            "hold_cnt": "OKEx  $3326万",
+            "stock_burst_amt": "1H  $0;24H $19.2万",
+            "long_short_rate": "多:空=2.0",
+            "amount_rate": "多:空=2.73",
+            "quarterly_premium": "+$5.32",
+            "all_long_short": "多头 51.43%",
+            "perpetual_contract": "+0.030%",
+            "okex_trend": "多:空=37%  62%",
+            "okex_index": "多:空=16%  18%",
+            "currency_rate": "null"
+        }, {
+            "coin_type": "LTC",
+            "offer": "$48.79;+0.35%",
+            "market_sentiment": "多空人数比高位",
+            "hold_cnt": "OKEx  $3564万",
+            "stock_burst_amt": "1H  $0;24H $59.1万",
+            "long_short_rate": "多:空=1.96",
+            "amount_rate": "多:空=3.57",
+            "quarterly_premium": "+$0.72",
+            "all_long_short": "空头 51.54%",
+            "perpetual_contract": "+0.042%",
+            "okex_trend": "多:空=55%  44%",
+            "okex_index": "多:空=25%  12%",
+            "currency_rate": "null"
+        }, {
+            "coin_type": "XRP",
+            "offer": "$0.25;+0.93%",
+            "market_sentiment": "多空人数比极高",
+            "hold_cnt": "OKEx  $1452万",
+            "stock_burst_amt": "1H  $0;24H $18.3万",
+            "long_short_rate": "多:空=2.12",
+            "amount_rate": "多:空=4.82",
+            "quarterly_premium": "-$0.00",
+            "all_long_short": "多头 51.13%",
+            "perpetual_contract": "null",
+            "okex_trend": "多:空=56%  42%",
+            "okex_index": "多:空=21%  11%",
+            "currency_rate": "null"
+        }, {
+            "coin_type": "BSV",
+            "offer": "$164.03;-0.02%",
+            "market_sentiment": "多空人数比极高",
+            "hold_cnt": "OKEx  $1628万",
+            "stock_burst_amt": "1H  $0;24H $1.1万",
+            "long_short_rate": "多:空=2.25",
+            "amount_rate": "多:空=5.91",
+            "quarterly_premium": "+$3.50",
+            "all_long_short": "多头 51.81%",
+            "perpetual_contract": "null",
+            "okex_trend": "多:空=49%  50%",
+            "okex_index": "多:空=27%  17%",
+            "currency_rate": "null"
+        }, {
+            "coin_type": "ETC",
+            "offer": "$5.22;+0.82%",
+            "market_sentiment": "多空人数比极高",
+            "hold_cnt": "OKEx  $1314万",
+            "stock_burst_amt": "1H  $0;24H $0",
+            "long_short_rate": "多:空=2.08",
+            "amount_rate": "多:空=1.81",
+            "quarterly_premium": "+$0.06",
+            "all_long_short": "空头 50.74%",
+            "perpetual_contract": "null",
+            "okex_trend": "多:空=56%  37%",
+            "okex_index": "多:空=32%  10%",
+            "currency_rate": "null"
+        }],
+        "bcoin_big_vip_info": [{
+            "long_num": "3",
+            "other_num": "7",
+            "short_num": "0",
+            "vip_msg": "大概率涨到11500左右，个人没操作，只是分析下说说;我开始空ETH和BTC了…暂时先试试。比较小的仓位去试，等这个损了或者爆仓了就比较明朗了… ​​​​"
+        }],
+        "bcoin_fin_market_index_info": [{
+            "project": "黄金COMEX",
+            "change_of_24h": "+0.63%",
+            "newest": "1962"
+        }, {
+            "project": "原油NYMEX",
+            "change_of_24h": "+0.63%",
+            "newest": "41.22"
+        }, {
+            "project": "离岸人民币",
+            "change_of_24h": "+0.02%",
+            "newest": "6.75"
+        }, {
+            "project": "恒生指数",
+            "change_of_24h": "+0.47%",
+            "newest": "24455"
+        }, {
+            "project": "英国富时100",
+            "change_of_24h": "-0.23%",
+            "newest": "6036"
+        }, {
+            "project": "道琼斯",
+            "change_of_24h": "-0.47%",
+            "newest": "27901"
+        }, {
+            "project": "日经225指数",
+            "change_of_24h": "+0.12%",
+            "newest": "23347"
+        }, {
+            "project": "上证指数",
+            "change_of_24h": "+2.07%",
+            "newest": "3338"
+        }],
+        "bcoin_btc_future_pos_info": [{
+            "exchange": "BitMEX",
+            "change_of_24h": "+1.7%",
+            "hold_cnt": "620992177.0000"
+        }, {
+            "exchange": "OKEx",
+            "change_of_24h": "-6.4%",
+            "hold_cnt": "608261200"
+        }, {
+            "exchange": "Huobi",
+            "change_of_24h": "-5.5%",
+            "hold_cnt": "289100800.0000"
+        }, {
+            "exchange": "币安",
+            "change_of_24h": "-0.2%",
+            "hold_cnt": "384007253.156160"
+        }],
+        "bcoin_long_short_rate_info": [{
+            "coin_type": "BTC",
+            "change_of_24h": "0.0%",
+            "long_short": "0.76"
+        }, {
+            "coin_type": "ETH",
+            "change_of_24h": "+16.2%",
+            "long_short": "1.00"
+        }, {
+            "coin_type": "BCH",
+            "change_of_24h": "+19.7%",
+            "long_short": "2.00"
+        }, {
+            "coin_type": "EOS",
+            "change_of_24h": "+5.4%",
+            "long_short": "2.31"
+        }, {
+            "coin_type": "LTC",
+            "change_of_24h": "+14.6%",
+            "long_short": "1.96"
+        }, {
+            "coin_type": "BSV",
+            "change_of_24h": "-6.6%",
+            "long_short": "2.25"
+        }, {
+            "coin_type": "XRP",
+            "change_of_24h": "+9.8%",
+            "long_short": "2.12"
+        }, {
+            "coin_type": "ETC",
+            "change_of_24h": "+5.5%",
+            "long_short": "2.08"
+        }, {
+            "coin_type": "TRX",
+            "change_of_24h": "+6.4%",
+            "long_short": "1.15"
+        }],
+        "bcoin_swap_cap_rate_info": [{
+            "coin_type": "BTC",
+            "amt_rate": "0.010%",
+            "3d_cum": "0.045%"
+        }, {
+            "coin_type": "ETH",
+            "amt_rate": "0.074%",
+            "3d_cum": "0.558%"
+        }, {
+            "coin_type": "EOS",
+            "amt_rate": "0.062%",
+            "3d_cum": "0.034%"
+        }, {
+            "coin_type": "BCH",
+            "amt_rate": "0.030%",
+            "3d_cum": "0.086%"
+        }, {
+            "coin_type": "LTC",
+            "amt_rate": "0.042%",
+            "3d_cum": "0.151%"
+        }],
+        "bcoin_netinflow_24h_info": [{
+            "coin_type": "BTC",
+            "flow_exchange_info": "+2250个 btc",
+            "flow_exchange_num": "2250.46904505"
+        }, {
+            "coin_type": "ETH",
+            "flow_exchange_info": "+1.24万个 eth",
+            "flow_exchange_num": "12460.25848514"
+        }, {
+            "coin_type": "USDT",
+            "flow_exchange_info": "-332万个 usdt",
+            "flow_exchange_num": "-3329651.54202621"
+        }],
+        "bcoin_usdt_index_info": [{
+            "usdt_amt": "6.74",
+            "dollar_rate": "6.758",
+            "premium_rate": "-0.26"
+        }],
+        "bcoin_btc_big_order_info": [{
+            "order_type": "空单",
+            "order_num": "237笔",
+            "deal_num": "3笔",
+            "deal_sheet": "5万张"
+        }, {
+            "order_type": "多单",
+            "order_num": "256笔",
+            "deal_num": "8笔",
+            "deal_sheet": "58万张"
+        }],
+        "bcoin_24h_burst_info": [{
+            "type": "OKEx爆仓单",
+            "coin_type": "BTC",
+            "burst_amt": "3830908.6000000000931322574615478515625",
+            "hold_rate": "0.62%"
+        }, {
+            "type": "OKEx爆仓单",
+            "coin_type": "EOS",
+            "burst_amt": "13912.719999999999345163814723491668701171875",
+            "hold_rate": "0.03%"
+        }, {
+            "type": "OKEx爆仓单",
+            "coin_type": "LTC",
+            "burst_amt": "9580",
+            "hold_rate": "0.02%"
+        }, {
+            "type": "OKEx爆仓单",
+            "coin_type": "ETH",
+            "burst_amt": "2985611.9525999999605119228363037109375",
+            "hold_rate": "1.77%"
+        }, {
+            "type": "OKEx爆仓单",
+            "coin_type": "XRP",
+            "burst_amt": "10",
+            "hold_rate": "0.00%"
+        }, {
+            "type": "OKEx爆仓单",
+            "coin_type": "BCH",
+            "burst_amt": "147764.83999999999650754034519195556640625",
+            "hold_rate": "0.44%"
+        }, {
+            "type": "OKEx爆仓单",
+            "coin_type": "BSV",
+            "burst_amt": "5740.239999999999781721271574497222900390625",
+            "hold_rate": "0.03%"
+        }, {
+            "type": "BitMEX爆仓单",
+            "coin_type": "BTC",
+            "burst_amt": "2958409",
+            "hold_rate": "0%"
+        }, {
+            "type": "BitMEX爆仓单",
+            "coin_type": "ETH",
+            "burst_amt": "233501",
+            "hold_rate": "0%"
+        }, {
+            "type": "Huobi爆仓单",
+            "coin_type": "BTC",
+            "burst_amt": "2149900",
+            "hold_rate": "7.43%"
+        }, {
+            "type": "Huobi爆仓单",
+            "coin_type": "EOS",
+            "burst_amt": "4880",
+            "hold_rate": "0.01%"
+        }, {
+            "type": "Huobi爆仓单",
+            "coin_type": "LTC",
+            "burst_amt": "39670",
+            "hold_rate": "0.28%"
+        }, {
+            "type": "Huobi爆仓单",
+            "coin_type": "ETH",
+            "burst_amt": "2491180",
+            "hold_rate": "2.12%"
+        }, {
+            "type": "Huobi爆仓单",
+            "coin_type": "XRP",
+            "burst_amt": "6500",
+            "hold_rate": "0.07%"
+        }, {
+            "type": "Huobi爆仓单",
+            "coin_type": "BCH",
+            "burst_amt": "400",
+            "hold_rate": "0.00%"
+        }, {
+            "type": "Huobi爆仓单",
+            "coin_type": "BSV",
+            "burst_amt": "5340",
+            "hold_rate": "0.03%"
+        }, {
+            "type": "币安爆仓单",
+            "coin_type": "BTC",
+            "burst_amt": "5549168.07512000016868114471435546875",
+            "hold_rate": "1.44%"
+        }, {
+            "type": "币安爆仓单",
+            "coin_type": "ETH",
+            "burst_amt": "1202568.37256000004708766937255859375",
+            "hold_rate": "0.96%"
+        }, {
+            "type": "币安爆仓单",
+            "coin_type": "BCH",
+            "burst_amt": "44332.9213200000012875534594058990478515625",
+            "hold_rate": "0.27%"
+        }],
+        "bcoin_finance_rate_info": [{
+            "coin_type": "BTC",
+            "annualized_rate": "3830908.6000000000931322574615478515625",
+            "volume": "0.62%"
+        }, {
+            "coin_type": "EOS",
+            "annualized_rate": "13912.719999999999345163814723491668701171875",
+            "volume": "0.03%"
+        }, {
+            "coin_type": "LTC",
+            "annualized_rate": "9580",
+            "volume": "0.02%"
+        }, {
+            "coin_type": "ETH",
+            "annualized_rate": "2985611.9525999999605119228363037109375",
+            "volume": "1.77%"
+        }, {
+            "coin_type": "XRP",
+            "annualized_rate": "10",
+            "volume": "0.00%"
+        }, {
+            "coin_type": "BCH",
+            "annualized_rate": "147764.83999999999650754034519195556640625",
+            "volume": "0.44%"
+        }, {
+            "coin_type": "BSV",
+            "annualized_rate": "5740.239999999999781721271574497222900390625",
+            "volume": "0.03%"
+        }, {
+            "coin_type": "BTC",
+            "annualized_rate": "2149900",
+            "volume": "7.43%"
+        }, {
+            "coin_type": "EOS",
+            "annualized_rate": "4880",
+            "volume": "0.01%"
+        }, {
+            "coin_type": "LTC",
+            "annualized_rate": "39670",
+            "volume": "0.28%"
+        }, {
+            "coin_type": "ETH",
+            "annualized_rate": "2491180",
+            "volume": "2.12%"
+        }, {
+            "coin_type": "XRP",
+            "annualized_rate": "6500",
+            "volume": "0.07%"
+        }, {
+            "coin_type": "BCH",
+            "annualized_rate": "400",
+            "volume": "0.00%"
+        }, {
+            "coin_type": "BSV",
+            "annualized_rate": "5340",
+            "volume": "0.03%"
+        }, {
+            "coin_type": "BTC",
+            "annualized_rate": "5549168.07512000016868114471435546875",
+            "volume": "1.44%"
+        }, {
+            "coin_type": "ETH",
+            "annualized_rate": "1202568.37256000004708766937255859375",
+            "volume": "0.96%"
+        }, {
+            "coin_type": "BCH",
+            "annualized_rate": "44332.9213200000012875534594058990478515625",
+            "volume": "0.27%"
+        }, {
+            "coin_type": "BTC",
+            "annualized_rate": "2958409",
+            "volume": "0%"
+        }, {
+            "coin_type": "ETH",
+            "annualized_rate": "233501",
+            "volume": "0%"
+        }],
+        "bcoin_short_term_info": [{
+            "coin_type": "ETHNQ",
+            "type": "大笔买入",
+            "change_of_index": "116330.54000000001"
+        }, {
+            "coin_type": "ETHNQ",
+            "type": "大笔卖出",
+            "change_of_index": "60937.184"
+        }, {
+            "coin_type": "ETHNQ",
+            "type": "大笔卖出",
+            "change_of_index": "72807.88"
+        }, {
+            "coin_type": "BTCNQ",
+            "type": "大笔卖出",
+            "change_of_index": "703158.12"
+        }, {
+            "coin_type": "BTC",
+            "type": "大笔卖出",
+            "change_of_index": "124756.64499999999"
+        }],
+        "bcoin_rise_list_info": [{
+            "coin_type": "GSE",
+            "offer": "0.00002593",
+            "24h_rise_fall": "23.71%"
+        }, {
+            "coin_type": "NEO",
+            "offer": "24.76096440",
+            "24h_rise_fall": "17.79%"
+        }, {
+            "coin_type": "SSP",
+            "offer": "0.00010943",
+            "24h_rise_fall": "17.64%"
+        }, {
+            "coin_type": "AGI",
+            "offer": "0.07178503",
+            "24h_rise_fall": "15.42%"
+        }, {
+            "coin_type": "SWTH",
+            "offer": "0.04165223",
+            "24h_rise_fall": "15.26%"
+        }],
+        "bcoin_coin_volume_info": [{
+            "coin_type": "BLZ",
+            "rise_fall": "2.509294",
+            "1m_rate": "154.83"
+        }, {
+            "coin_type": "ICX",
+            "rise_fall": "3.153153",
+            "1m_rate": "118.65"
+        }, {
+            "coin_type": "SOL",
+            "rise_fall": "-10.099706",
+            "1m_rate": "16.60"
+        }, {
+            "coin_type": "LINK",
+            "rise_fall": "0.088798",
+            "1m_rate": "8.04"
+        }, {
+            "coin_type": "SRM",
+            "rise_fall": "-5.972956",
+            "1m_rate": "6.85"
+        }],
+        "bcoin_btc_futcont_info": [{
+            "price": "11231.49",
+            "price_rate": "1.071632",
+            "idx": "10992.65",
+            "premium_rate": "2.17",
+            "hold_amt": "608354500",
+            "deal_amt": "497156500",
+            "lose_for_24h": "2049500",
+            "no_deal_lose": "0"
+        }]
+    }
+}

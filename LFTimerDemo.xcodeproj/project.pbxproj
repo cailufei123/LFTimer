@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		048394342559337000DB3070 /* CoinTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048394332559337000DB3070 /* CoinTools.framework */; };
 		AD316B7124EC45ED008EBB80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD316B7024EC45ED008EBB80 /* AppDelegate.m */; };
 		AD316B7424EC45ED008EBB80 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD316B7324EC45ED008EBB80 /* SceneDelegate.m */; };
 		AD316B7724EC45ED008EBB80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD316B7624EC45ED008EBB80 /* ViewController.m */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		048394332559337000DB3070 /* CoinTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoinTools.framework; sourceTree = SOURCE_ROOT; };
 		AD316B6C24EC45ED008EBB80 /* LFTimerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFTimerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD316B6F24EC45ED008EBB80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD316B7024EC45ED008EBB80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048394342559337000DB3070 /* CoinTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +67,7 @@
 		AD316B6E24EC45ED008EBB80 /* LFTimerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				048394332559337000DB3070 /* CoinTools.framework */,
 				AD316B8824EC4B01008EBB80 /* LFTimer */,
 				AD316B6F24EC45ED008EBB80 /* AppDelegate.h */,
 				AD316B7024EC45ED008EBB80 /* AppDelegate.m */,
@@ -304,6 +308,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LFTimerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -320,6 +328,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LFTimerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
