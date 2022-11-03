@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
  s. source_files = 'LFTimer/*.{h,m}'
 
- s.vendored_frameworks = 'CoinTools.framework'
+ s.frameworks = 'CoinTools.framework'
  
 
  s.dependency 'Charts'
