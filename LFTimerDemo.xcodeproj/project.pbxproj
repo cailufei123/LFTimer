@@ -3,12 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77F5DD7F291360DE00E01C70 /* CoinTools.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F5DD7D291360CD00E01C70 /* CoinTools.xcframework */; };
-		77F5DD80291360DE00E01C70 /* CoinTools.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 77F5DD7D291360CD00E01C70 /* CoinTools.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AD316B7124EC45ED008EBB80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD316B7024EC45ED008EBB80 /* AppDelegate.m */; };
 		AD316B7424EC45ED008EBB80 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD316B7324EC45ED008EBB80 /* SceneDelegate.m */; };
 		AD316B7724EC45ED008EBB80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD316B7624EC45ED008EBB80 /* ViewController.m */; };
@@ -26,7 +24,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				77F5DD80291360DE00E01C70 /* CoinTools.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,7 +31,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		77F5DD7D291360CD00E01C70 /* CoinTools.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CoinTools.xcframework; path = ../../bigdata_f/CoinTools.xcframework; sourceTree = "<group>"; };
 		AD316B6C24EC45ED008EBB80 /* LFTimerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFTimerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD316B6F24EC45ED008EBB80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD316B7024EC45ED008EBB80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77F5DD7F291360DE00E01C70 /* CoinTools.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +96,6 @@
 		AD316B8824EC4B01008EBB80 /* LFTimer */ = {
 			isa = PBXGroup;
 			children = (
-				77F5DD7D291360CD00E01C70 /* CoinTools.xcframework */,
 				AD316B8A24EC4B01008EBB80 /* LFTimer.h */,
 				AD316B8924EC4B01008EBB80 /* LFTimer.m */,
 			);
