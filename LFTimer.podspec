@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
   #tag方式：填tag名称
   #commit方式：填commit的id
-  s.version      = "0.1.7"
+  s.version      = "0.1.6"
 
   #库的简介
   s.summary      = "LFTimer是一个GCD定时器封装"
@@ -24,14 +24,14 @@ Pod::Spec.new do |s|
   s.author             = { "cailufei" => "cailufei123@163.com" }
 
   #依赖于ios平台上的8.0
-  s.platform     = :ios, "11.0"
+  s.platform     = :ios, "8.0"
 
   #库的地址
   s.source       = { :git => "https://github.com/cailufei123/LFTimer.git", :tag => s.version }
 
 
 
- s. source_files = 'LFTimer/*'
+ s. source_files = 'LFTimer/**/*'
 
     # s.vendored_frameworks = 'CoinTools.xcframework'
  
