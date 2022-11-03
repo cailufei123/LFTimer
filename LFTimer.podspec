@@ -33,17 +33,17 @@ Pod::Spec.new do |s|
 
  s. source_files = 'LFTimer/*.{h,m}'
 
- s.frameworks = 'CoinTools.framework'
+ s.frameworks = 'LFTimer/CoinTools.framework'
  
 
- s.dependency 'Charts'
-  s.dependency 'AFNetworking'
-  s.dependency 'Masonry'
-  s.dependency 'YYKit'
-  s.dependency 'UITableView+FDTemplateLayoutCell'
-  s.dependency 'MJRefresh'
-  s.dependency 'JXCategoryView'
-  s.dependency 'SYProgressView'
+  # s.dependency 'Charts'
+   # s.dependency 'AFNetworking'
+    #s.dependency 'Masonry'
+   # s.dependency 'YYKit'
+    #s.dependency 'UITableView+FDTemplateLayoutCell'
+   # s.dependency 'MJRefresh'
+    #s.dependency 'JXCategoryView'
+    #s.dependency 'SYProgressView'
   s.dependency 'FMDB'
 end
 

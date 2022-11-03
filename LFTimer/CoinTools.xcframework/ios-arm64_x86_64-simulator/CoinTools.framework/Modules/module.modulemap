@@ -1,0 +1,11 @@
+framework module CoinTools {
+  umbrella header "CoinTools.h"
+
+  export *
+  module * { export * }
+}
+
+module CoinTools.Swift {
+    header "CoinTools-Swift.h"
+    requires objc
+}

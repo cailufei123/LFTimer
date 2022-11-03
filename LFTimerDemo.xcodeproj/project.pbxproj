@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		048394342559337000DB3070 /* CoinTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048394332559337000DB3070 /* CoinTools.framework */; };
+		77F5DD7829135E9D00E01C70 /* CoinTools.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F5DD7629135E9200E01C70 /* CoinTools.xcframework */; };
+		77F5DD7929135E9D00E01C70 /* CoinTools.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 77F5DD7629135E9200E01C70 /* CoinTools.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AD316B7124EC45ED008EBB80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD316B7024EC45ED008EBB80 /* AppDelegate.m */; };
 		AD316B7424EC45ED008EBB80 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD316B7324EC45ED008EBB80 /* SceneDelegate.m */; };
 		AD316B7724EC45ED008EBB80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD316B7624EC45ED008EBB80 /* ViewController.m */; };
@@ -18,8 +19,22 @@
 		AD316B8B24EC4B01008EBB80 /* LFTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD316B8924EC4B01008EBB80 /* LFTimer.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		77F5DD7329135DAB00E01C70 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				77F5DD7929135E9D00E01C70 /* CoinTools.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		048394332559337000DB3070 /* CoinTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoinTools.framework; sourceTree = SOURCE_ROOT; };
+		77F5DD7629135E9200E01C70 /* CoinTools.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CoinTools.xcframework; path = ../../bigdata_f/CoinTools.xcframework; sourceTree = "<group>"; };
 		AD316B6C24EC45ED008EBB80 /* LFTimerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFTimerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD316B6F24EC45ED008EBB80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD316B7024EC45ED008EBB80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -41,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048394342559337000DB3070 /* CoinTools.framework in Frameworks */,
+				77F5DD7829135E9D00E01C70 /* CoinTools.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +82,6 @@
 		AD316B6E24EC45ED008EBB80 /* LFTimerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				048394332559337000DB3070 /* CoinTools.framework */,
 				AD316B8824EC4B01008EBB80 /* LFTimer */,
 				AD316B6F24EC45ED008EBB80 /* AppDelegate.h */,
 				AD316B7024EC45ED008EBB80 /* AppDelegate.m */,
@@ -87,6 +101,7 @@
 		AD316B8824EC4B01008EBB80 /* LFTimer */ = {
 			isa = PBXGroup;
 			children = (
+				77F5DD7629135E9200E01C70 /* CoinTools.xcframework */,
 				AD316B8A24EC4B01008EBB80 /* LFTimer.h */,
 				AD316B8924EC4B01008EBB80 /* LFTimer.m */,
 			);
@@ -103,6 +118,7 @@
 				AD316B6824EC45ED008EBB80 /* Sources */,
 				AD316B6924EC45ED008EBB80 /* Frameworks */,
 				AD316B6A24EC45ED008EBB80 /* Resources */,
+				77F5DD7329135DAB00E01C70 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -311,6 +327,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/LFTimer",
 				);
 				INFOPLIST_FILE = LFTimerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -331,6 +348,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/LFTimer",
 				);
 				INFOPLIST_FILE = LFTimerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

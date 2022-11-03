@@ -7,7 +7,6 @@
 //
 
 #import "LFTimer.h"
-
 @implementation LFTimer
 
 
