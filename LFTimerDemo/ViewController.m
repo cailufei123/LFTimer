@@ -18,7 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"begin");
     
     // 接口设计
     self.task = [LFTimer execTask:self
