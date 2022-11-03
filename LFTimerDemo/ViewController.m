@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    NSURL
     // 接口设计
     self.task = [LFTimer execTask:self
                          selector:@selector(doTask)
