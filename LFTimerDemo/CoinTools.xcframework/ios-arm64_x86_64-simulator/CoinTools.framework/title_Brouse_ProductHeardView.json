@@ -1,0 +1,451 @@
+{
+ 
+
+    "Brouse" :[
+       
+            {
+                "key": "ALL",
+                "name": "All",
+                "color": "CC3333",
+                "products":[
+                    {
+                        "key": "all",
+                        "name": "全量",
+                        "color": "f29c76",
+                    }
+                ]
+            },{
+                
+                
+                
+                "key": "Gate",
+                "name": "Gate",
+                "color": "FF6600",
+                "products":[
+                    {
+                        "key": "all",
+                        "name": "全量",
+                        "color": "f29c76",
+                    },{
+                        "key": "yx",
+                        "name": "永续",
+                        "color": "f29c76",
+                    },
+                ]
+                
+                
+              
+            },{
+                "key": "Bit",
+                "name": "B**it",
+                "color": "f0b631",
+                "products":[
+                    {
+                        "key": "all",
+                        "name": "全量",
+                        "color": "f29c76",
+                    },{
+                        "key": "yx",
+                        "name": "永续",
+                        "color": "f29c76",
+                    },
+                ]
+            },{
+                "key": "Bice",
+                "name": "Bi**ce",
+                "color": "99CC99",
+                "products":[
+                    {
+                        "key": "all",
+                        "name": "全量",
+                        "color": "f29c76",
+                    },{
+                        "key": "yx",
+                        "name": "永续",
+                        "color": "f29c76",
+                    },{
+                        "key": "bj",
+                        "name": "本季",
+                        "color": "f29c76",
+                    },{
+                        "key": "cj",
+                        "name": "次季",
+                        "color": "f29c76",
+                    },
+                ]
+            },{
+                "key": "Hbi",
+                "name": "H**bi",
+                "color": "339999",
+                "products":[
+                    {
+                        "key": "all",
+                        "name": "全量",
+                        "color": "f29c76",
+                    },{
+                        "key": "yx",
+                        "name": "永续",
+                        "color": "f29c76",
+                    },{
+                        "key": "bz",
+                        "name": "本周",
+                        "color": "f29c76",
+                    },{
+                        "key": "cz",
+                        "name": "次周",
+                        "color": "f29c76",
+                    },{
+                        "key": "bj",
+                        "name": "本季",
+                        "color": "f29c76",
+                    },{
+                        "key": "cj",
+                        "name": "次季",
+                        "color": "f29c76",
+                    },
+                ]
+            },{
+                "key": "Ox",
+                "name": "O**x",
+                "color": "004ea0",
+                "products":[
+                    {
+                        "key": "all",
+                        "name": "全量",
+                        "color": "f29c76",
+                    },{
+                        "key": "yx",
+                        "name": "永续",
+                        "color": "f29c76",
+                    },{
+                        "key": "bz",
+                        "name": "本周",
+                        "color": "f29c76",
+                    },{
+                        "key": "cz",
+                        "name": "次周",
+                        "color": "f29c76",
+                    },{
+                        "key": "bj",
+                        "name": "本季",
+                        "color": "f29c76",
+                    },{
+                        "key": "cj",
+                        "name": "次季",
+                        "color": "f29c76",
+                    },
+                ]
+            },{
+                "key": "Bmex",
+                "name": "B**mex",
+                "color": "8B00FF",
+                "products":[
+                    {
+                        "key": "all",
+                        "name": "全量",
+                        "color": "f29c76",
+                    },{
+                        "key": "yx",
+                        "name": "永续",
+                        "color": "f29c76",
+                    },{
+                        "key": "bj",
+                        "name": "本季",
+                        "color": "f29c76",
+                    },{
+                        "key": "cj",
+                        "name": "次季",
+                        "color": "f29c76",
+                    },
+                ]
+            }
+        
+    ],
+    
+    "BrouseKind" :[
+        
+        
+       {
+  
+                
+                "key": "Gate",
+                "name": "Gate",
+                "color": "FF6600",
+                "products":[
+                    {
+                        "key": "all",
+                        "name": "全量",
+                        "color": "f29c76",
+                    },{
+                        "key": "yx",
+                        "name": "永续",
+                        "color": "f29c76",
+                    },
+                ]
+                
+                
+                
+            },{
+                
+                "key": "Bit",
+                "name": " B**it",
+                "color": "f0b631",
+                "products":[
+                    {
+                        "key": "all",
+                        "name": "全量",
+                        "color": "f29c76",
+                    },{
+                        "key": "yx",
+                        "name": "永续",
+                        "color": "f29c76",
+                    },
+                ]
+            },{
+                "key": "Bice",
+                "name": "Bi**ce",
+                "color": "99CC99",
+                "products":[
+                    {
+                        "key": "all",
+                        "name": "全量",
+                        "color": "f29c76",
+                    },{
+                        "key": "yx",
+                        "name": "永续",
+                        "color": "f29c76",
+                    },{
+                        "key": "bj",
+                        "name": "本季",
+                        "color": "f29c76",
+                    },{
+                        "key": "cj",
+                        "name": "次季",
+                        "color": "f29c76",
+                    },
+                ]
+            },{
+                "key": "Hbi",
+                "name": "H**bi",
+                "color": "339999",
+                "products":[
+                    {
+                        "key": "all",
+                        "name": "全量",
+                        "color": "f29c76",
+                    },{
+                        "key": "yx",
+                        "name": "永续",
+                        "color": "f29c76",
+                    },{
+                        "key": "bz",
+                        "name": "本周",
+                        "color": "f29c76",
+                    },{
+                        "key": "cz",
+                        "name": "次周",
+                        "color": "f29c76",
+                    },{
+                        "key": "bj",
+                        "name": "本季",
+                        "color": "f29c76",
+                    },{
+                        "key": "cj",
+                        "name": "次季",
+                        "color": "f29c76",
+                    },
+                ]
+            },{
+                "key": "Ox",
+                "name": "O**x",
+                "color": "004ea0",
+                "products":[
+                    {
+                        "key": "all",
+                        "name": "全量",
+                        "color": "f29c76",
+                    },{
+                        "key": "yx",
+                        "name": "永续",
+                        "color": "f29c76",
+                    },{
+                        "key": "bz",
+                        "name": "本周",
+                        "color": "f29c76",
+                    },{
+                        "key": "cz",
+                        "name": "次周",
+                        "color": "f29c76",
+                    },{
+                        "key": "bj",
+                        "name": "本季",
+                        "color": "f29c76",
+                    },{
+                        "key": "cj",
+                        "name": "次季",
+                        "color": "f29c76",
+                    },
+                ]
+            },{
+                "key": "Bmex",
+                "name": "B**mex",
+                "color": "8B00FF",
+                "products":[
+                    {
+                        "key": "all",
+                        "name": "全量",
+                        "color": "f29c76",
+                    },{
+                        "key": "yx",
+                        "name": "永续",
+                        "color": "f29c76",
+                    },{
+                        "key": "bj",
+                        "name": "本季",
+                        "color": "f29c76",
+                    },{
+                        "key": "cj",
+                        "name": "次季",
+                        "color": "f29c76",
+                    },
+                ]
+            }
+        
+    ],
+    
+   
+"bigOrderBrouse" :[
+    
+    
+   {
+
+            
+            "key": "Gate",
+            "name": "Gate",
+            "color": "FF6600",
+            "products":[
+                {
+                    "key": "yx",
+                    "name": "永续",
+                    "color": "f29c76",
+                },
+            ]
+            
+            
+            
+        },{
+            "key": "Bit",
+            "name": " B**it",
+            "color": "f0b631",
+            "products":[
+                {
+                    "key": "yx",
+                    "name": "永续",
+                    "color": "f29c76",
+                },
+            ]
+        },{
+            "key": "Bice",
+            "name": "Bi**ce",
+            "color": "99CC99",
+            "products":[
+              {
+                    "key": "yx",
+                    "name": "永续",
+                    "color": "f29c76",
+                },{
+                    "key": "bj",
+                    "name": "本季",
+                    "color": "f29c76",
+                },{
+                    "key": "cj",
+                    "name": "次季",
+                    "color": "f29c76",
+                },
+            ]
+        },{
+            "key": "Hbi",
+            "name": "H**bi",
+            "color": "339999",
+            "products":[
+              {
+                    "key": "yx",
+                    "name": "永续",
+                    "color": "f29c76",
+                },{
+                    "key": "bz",
+                    "name": "本周",
+                    "color": "f29c76",
+                },{
+                    "key": "cz",
+                    "name": "次周",
+                    "color": "f29c76",
+                },{
+                    "key": "bj",
+                    "name": "本季",
+                    "color": "f29c76",
+                },{
+                    "key": "cj",
+                    "name": "次季",
+                    "color": "f29c76",
+                },
+            ]
+        },{
+            "key": "Ox",
+            "name": "O**x",
+            "color": "004ea0",
+            "products":[
+              {
+                    "key": "yx",
+                    "name": "永续",
+                    "color": "f29c76",
+                },{
+                    "key": "bz",
+                    "name": "本周",
+                    "color": "f29c76",
+                },{
+                    "key": "cz",
+                    "name": "次周",
+                    "color": "f29c76",
+                },{
+                    "key": "bj",
+                    "name": "本季",
+                    "color": "f29c76",
+                },{
+                    "key": "cj",
+                    "name": "次季",
+                    "color": "f29c76",
+                },
+            ]
+        },{
+            "key": "Bmex",
+            "name": "B**mex",
+            "color": "8B00FF",
+            "products":[
+               {
+                    "key": "yx",
+                    "name": "永续",
+                    "color": "f29c76",
+                },{
+                    "key": "bj",
+                    "name": "本季",
+                    "color": "f29c76",
+                },{
+                    "key": "cj",
+                    "name": "次季",
+                    "color": "f29c76",
+                },
+            ]
+        }
+    
+]
+
+}
+
+
+
+
+
+
+
+

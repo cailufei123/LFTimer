@@ -7,6 +7,7 @@
 //
 
 #import "LFTimer.h"
+#import <CoinTools/CoinTools.h>
 @implementation LFTimer
 
 
